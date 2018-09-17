@@ -99,7 +99,7 @@ $(function () {
 	$("#tips").hide()
 
 	// 连接socket
-	socket = io.connect('http://127.0.0.1:3000')
+	socket = io.connect('http://127.0.0.1:3001')
 
 	// socket连接成功
 	socket.on('open', function(json) {
